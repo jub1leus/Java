@@ -1,3 +1,4 @@
+package Basics;
 import java.util.Scanner;
 
 
@@ -15,6 +16,7 @@ public class Addition{
         System.out.print("Enter second integer: ");
         num2 = input.nextInt();
         sum = num1 + num2;
+        input.close();
         System.out.printf("Sum is %d%n", sum);
     }
 }

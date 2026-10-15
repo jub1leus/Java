@@ -1,3 +1,4 @@
+package MethodsAndClasses;
 public class Account {
     private String name; // instance variable
 
@@ -9,6 +10,10 @@ public class Account {
         return name;
     }
 }
+
+//here we make a class called account, and we make a private variable
+//called name, and we make a setter and getter
+//setters are used to "set" the values and getters are used to "get" the values of the private variables.
 
 //the reason you set and get the name is because the name is private 
 // and you cannot access it directly from outside the class, because it is private. 

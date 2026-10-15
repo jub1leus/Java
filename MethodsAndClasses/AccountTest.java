@@ -1,3 +1,5 @@
+package MethodsAndClasses;
+
 import java.util.Scanner;
 
 public class AccountTest {
@@ -11,8 +13,11 @@ public class AccountTest {
     System.out.print("Please enter the name: ");
     String theName = input.nextLine();
     myAccount.setName(theName); // set name
+    input.close();
     System.out.println(); // outputs a blank line
 
-    System.out.printf("Name in object myAccount is: %s%n", myAccount.getName());}
-     
+    System.out.printf("Name in object myAccount is: %s%n", myAccount.getName());
+    }
 }
+     
+
