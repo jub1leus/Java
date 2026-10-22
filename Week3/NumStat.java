@@ -38,7 +38,6 @@ public class NumStat {
             double average = (double) totalSum / totalCount;
             System.out.println("Average of all nonzero numbers: " + average);
         } else {
-            System.out.println("No nonzero numbers were entered.");
         }
 
         scanner.close();
