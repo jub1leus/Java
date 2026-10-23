@@ -18,7 +18,6 @@ public class Ex15 {
 
             try {
                 float radius = scanner.nextFloat();
-                System.out.print("Enter an integer: ");
 
                 if (radius == 0) {
                     System.out.println("Goodbye!");
