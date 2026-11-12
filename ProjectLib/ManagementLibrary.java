@@ -25,6 +25,19 @@ public class ManagementLibrary {
 
         Scanner sc = new Scanner(System.in);
 
+        Textbook tb = new Textbook("Java Programming", "John Doe", 25.0, 10, "Programming 1");
+        library.add(tb);
+        ReferenceBook rb = new ReferenceBook("World Atlas", "Ann Lee", 60.0, "R-12");
+        library.add(rb);
+
+        Book item1 = new ReferenceBook("Dictionary", "Tom Hill", 35.0, "R-03");
+        library.add(item1);
+        Book item2 = new Textbook("Algorithms", "Ann Lee", 30.0, 4,"Programming 2");
+        library.add(item2);
+
+//        Textbook bad = new Textbook("Broken book", "Nobody", -10.0, 1, "Test");
+//        library.add(bad);
+
         while (true) {
             try {
                 System.out.println("\nHello! Welcome to the Leyendecker Library! Select what you want to do:");

@@ -7,6 +7,9 @@ public class Book {
     private int stock;
     private Publisher publisherObj;
 
+    public Book() {
+    }
+
     private class Publisher {
         private String name;
         private String city;
@@ -22,15 +25,12 @@ public class Book {
         }
     }
 
-    // Default constructor
-    public Book(){
-    }
-
     // Parametrized constructor
     public Book(String title, String author, double price, int stock){
         this.title = title;
         this.author = author;
         this.price = price;
+        //setPrice(price);
         this.stock = stock;
         this.publisherObj = null;
     }
